@@ -1,0 +1,17 @@
+<?php
+namespace App\Domain\#package#\Model\#aggregation#;
+
+use App\Domain\Core\#aggregation#\#aggregation#;
+
+interface I#aggregation#Repository
+{
+    /**
+     * @return #aggregation#
+     */
+    public function find(): #aggregation#;
+
+    /**
+     * @return void
+     */
+    public function store(): void ;
+}

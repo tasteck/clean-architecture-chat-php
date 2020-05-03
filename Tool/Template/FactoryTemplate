@@ -1,0 +1,12 @@
+<?php
+namespace App\Domain\#package#\Model\#aggregation#;
+
+use App\Domain\Core\#aggregation#\#aggregation#;
+
+interface I#aggregation#Factory
+{
+    /**
+     * @return #aggregation#
+     */
+    public function create(): #aggregation#;
+}

@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Domain\#package#\#aggregation#;
+
+class #aggregation#
+{
+    public function __construct()
+    {
+    }
+}

@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Application\#package#\#aggregation#\#usecase#;
+
+interface I#aggregation##usecase#OutputPort
+{
+    /**
+     * @param #aggregation##usecase#OutputData $output_data
+     * @return void
+     */
+    public function output(#aggregation##usecase#OutputData $output_data): void;
+}

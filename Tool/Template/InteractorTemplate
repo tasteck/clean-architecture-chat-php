@@ -1,0 +1,27 @@
+<?php
+
+namespace App\Application\#package#\#aggregation#\#usecase#;
+
+class #aggregation##usecase#Interactor implements I#aggregation##usecase#InputPort
+{
+    /**
+     * @var I#aggregation##usecase#OutputPort
+     */
+    private $output_port;
+
+    public function __construct(
+        I#aggregation##usecase#OutputPort $output_port
+    )
+    {
+        $this->output_port   = $output_port;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    final public function handle(#aggregation##usecase#InputData $input_data): void
+    {
+        $output_data = new #aggregation##usecase#OutputData();
+        $this->output_port->output($output_data);
+    }
+}

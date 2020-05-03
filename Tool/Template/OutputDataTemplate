@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Application\#package#\#aggregation#\#usecase#;
+
+class #aggregation##usecase#OutputData
+{
+    public function __construct()
+    {
+    }
+}

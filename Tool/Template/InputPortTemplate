@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Application\#package#\#aggregation#\#usecase#;
+
+interface I#aggregation##usecase#InputPort
+{
+    /**
+     * @param #aggregation##usecase#InputData $input_data
+     * @return void
+     */
+    public function handle(#aggregation##usecase#InputData $input_data): void ;
+}
